@@ -1,0 +1,18 @@
+brickrack-patch 1
+volume 0.8
+module 1 step-sequencer
+module 2 segment-generator
+param 6 0.15
+param 7 0.35
+param 8 0.2
+param 1 0.8
+param 19 2
+param 25 1
+module 3 macro-osc-2
+module 4 audio-out
+cable 1 1 1 2 6 F2B630
+cable 2 1 1 2 8 F2B630
+cable 3 2 0 3 6 35E06A
+cable 4 1 0 3 7 168A8C
+cable 5 2 2 3 2 C8414B
+cable 6 3 0 4 0 C8414B

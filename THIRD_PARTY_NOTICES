@@ -1,0 +1,57 @@
+BrickRack - third-party notices
+===============================
+
+BrickRack is licensed under the GNU General Public License v3.0 or later
+(see LICENSE). Source code: https://github.com/andrewfrangella/brickrack
+
+It incorporates the following third-party material.
+
+-------------------------------------------------------------------------------
+1. Eurorack module firmware by Emilie Gillet
+   https://github.com/pichenettes/eurorack
+
+   STM32 firmware (Plaits, Braids, Rings, Elements, Warps, Clouds, Beads, Tides,
+   Tides 2, Marbles, Stages, Peaks, Streams, Frames) and stmlib: MIT License,
+   reproduced below.
+
+   AVR firmware (Grids, Branches, Edges), whose algorithms and tables are
+   reproduced in BrickRack: GNU GPL v3.0 or later, Copyright Emilie Gillet.
+
+   Hardware designs (used as reference for the analog-module models):
+   CC-BY-SA-3.0, Emilie Gillet.
+
+   "Mutable Instruments" is a registered trademark. BrickRack is not affiliated
+   with or endorsed by Mutable Instruments; original module names are used only
+   for attribution.
+
+Except when noted otherwise, all code is copyright Emilie Gillet and is
+released under the MIT License with the following notice:
+
+Copyright 2012 Emilie Gillet.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+-------------------------------------------------------------------------------
+2. Barlow Condensed font, Copyright 2017 The Barlow Project Authors
+   SIL Open Font License 1.1 (see OFL.txt).
+
+-------------------------------------------------------------------------------
+3. stb_truetype.h and stb_image_write.h by Sean Barrett
+   https://github.com/nothings/stb - public domain (Unlicense) or MIT License,
+   at your choice.

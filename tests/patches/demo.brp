@@ -1,0 +1,87 @@
+brickrack-patch 1
+volume 0.8
+module 1 brick-control
+param 0 1
+param 1 1
+param 2 0.1
+module 2 step-sequencer
+param 0 96
+param 1 8
+param 2 0.5
+param 3 2
+param 4 1
+param 5 0
+param 6 0.25
+param 7 0.58
+param 8 0.25
+param 9 0.83
+param 10 0.58
+param 11 0.25
+param 12 1
+param 13 1
+param 14 1
+param 15 1
+param 16 0
+param 17 1
+param 18 1
+param 19 1
+param 20 1
+module 3 macro-osc-2
+param 0 0
+param 1 0.5
+param 2 0.5
+param 3 0.35
+param 4 0
+param 5 0
+param 6 0
+param 7 0
+param 8 0
+param 9 8
+param 10 0.5
+param 11 0.5
+state altNavigation 0
+module 4 resonator
+param 0 0
+param 1 0
+param 2 30
+param 3 0.5
+param 4 0.5
+param 5 0.5
+param 6 0.5
+param 7 0
+param 8 0
+param 9 0
+param 10 0
+param 11 0
+param 12 1
+param 13 0
+state easterEgg 0
+module 5 texture-synth
+param 0 0.5
+param 1 0.6
+param 2 0.5
+param 3 0.5
+param 4 0.72
+param 5 0.5
+param 6 0.5
+param 7 0
+param 8 0
+param 9 0
+param 10 0
+param 11 0
+param 12 0.5
+param 13 0.501961
+param 14 0
+param 15 0.4
+module 6 audio-out
+param 0 0.8
+cable 1 2 1 3 5 FFF2B630
+cable 2 2 0 3 7 FF3E8EF7
+cable 3 1 0 3 1 FFB06CF0
+cable 4 3 0 4 7 FFE5484D
+cable 5 2 1 4 5 FFF2B630
+cable 6 2 0 4 6 FF3E8EF7
+cable 7 4 0 5 6 FF46C46E
+cable 8 4 1 5 7 FF46C46E
+cable 9 5 0 6 0 FFEDEDED
+cable 10 5 1 6 1 FFEDEDED

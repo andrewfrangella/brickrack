@@ -1,0 +1,18 @@
+brickrack-patch 1
+volume 0.8
+module 1 topographic-seq
+param 0 0.55
+param 4 0.6
+param 5 0.5
+param 6 0.6
+module 2 macro-osc-2
+param 0 -2
+param 9 21
+module 3 macro-osc-2
+param 0 -1
+param 9 22
+module 4 audio-out
+cable 1 1 0 2 5 F2B630
+cable 2 1 1 3 5 4FA3E0
+cable 3 2 0 4 0 E04F5F
+cable 4 3 0 4 1 E04F5F

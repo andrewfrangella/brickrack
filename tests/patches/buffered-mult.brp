@@ -1,0 +1,11 @@
+brickrack-patch 1
+volume 0.8
+module 1 macro-osc-2
+module 2 buffered-mult
+module 3 audio-out
+cable 1 1 0 2 0 3D9BF2
+cable 2 2 0 2 3 F2B630
+cable 3 1 1 2 4 E8524A
+cable 4 1 1 2 1 E8524A
+cable 5 2 5 3 0 66CC66
+cable 6 2 3 3 1 66CC66

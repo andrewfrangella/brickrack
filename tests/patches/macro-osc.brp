@@ -1,0 +1,10 @@
+brickrack-patch 1
+volume 0.8
+module 1 step-sequencer
+module 2 macro-osc
+param 0 28
+module 3 audio-out
+cable 1 1 1 2 0 F2B630
+cable 2 1 0 2 1 4FA3E0
+cable 3 2 0 3 0 E04F5F
+cable 4 2 0 3 1 E04F5F

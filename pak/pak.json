@@ -1,0 +1,9 @@
+{
+  "name": "BrickRack",
+  "version": "0.1.0",
+  "type": "TOOL",
+  "description": "Modular synthesizer: open-source Eurorack firmware DSP with patch cables, for TrimUI Brick / Brick Pro.",
+  "author": "BrickRack contributors",
+  "platforms": ["tg5040"],
+  "launch": "launch.sh"
+}

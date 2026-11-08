@@ -1,0 +1,11 @@
+brickrack-patch 1
+volume 0.8
+module 1 step-sequencer
+module 2 tidal-modulator
+param 4 0.3
+param 5 -0.4
+module 3 audio-out
+cable 1 1 0 2 5 F2B630
+cable 2 1 1 2 3 F2B630
+cable 3 2 3 3 0 E04A4A
+cable 4 2 2 3 1 E04A4A

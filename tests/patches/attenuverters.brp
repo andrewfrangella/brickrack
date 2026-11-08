@@ -1,0 +1,13 @@
+brickrack-patch 1
+volume 0.8
+module 1 macro-osc-2
+module 2 attenuverters
+param 0 0.9
+param 1 0.6
+param 2 0.2
+module 3 audio-out
+cable 1 1 0 2 0 3D9BF2
+cable 2 2 1 1 7 F2B630
+cable 3 1 1 2 2 E8524A
+cable 4 2 0 3 0 66CC66
+cable 5 2 2 3 1 66CC66

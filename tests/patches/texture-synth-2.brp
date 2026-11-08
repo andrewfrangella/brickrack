@@ -1,0 +1,16 @@
+brickrack-patch 1
+volume 0.8
+module 1 step-sequencer
+module 2 macro-osc-2
+param 9 13
+module 3 texture-synth-2
+param 0 0.7
+param 1 0.2
+param 6 0.7
+param 7 0.4
+module 4 audio-out
+cable 1 1 0 2 7 F2B630
+cable 2 1 1 2 5 F2B630
+cable 3 2 0 3 6 3DA5F2
+cable 4 3 0 4 0 E04A4A
+cable 5 3 1 4 1 E04A4A

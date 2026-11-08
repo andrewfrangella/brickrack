@@ -1,0 +1,19 @@
+brickrack-patch 1
+volume 0.8
+module 1 step-sequencer
+module 2 chiptune-osc
+param 1 7
+param 2 -12
+param 3 -24
+param 4 0.4
+param 5 0.25
+param 6 0.3
+param 7 0.6
+param 15 1
+param 16 3
+param 18 1
+module 3 audio-out
+param 0 0.7
+cable 1 1 0 2 4 F2B630
+cable 2 1 1 2 0 4FA3E0
+cable 3 2 4 3 0 E04F5F
